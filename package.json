@@ -1,0 +1,19 @@
+{
+  "name": "pikachu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files *.html ./dist/css/main.css",
+    "sass": "sass src/scss/:dist/css/ --no-source-map --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2"
+  }
+}
